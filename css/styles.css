@@ -167,6 +167,7 @@ h3 {
   min-height: 785px;
   height: 100%;
   padding-top: 27px;
+  margin-bottom: 82px;
 }
 .featured-works-card{
   display: flex;
@@ -208,5 +209,18 @@ h2{
   .featured-works{
     align-items: center;
     row-gap: 30px;
+    margin-bottom: 150px;
   }
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 182px;
+  row-gap: 26px;
+}
+.footer-nav ul{
+  display: flex;
+  column-gap: 35px;
 }
