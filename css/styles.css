@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+}
+header {
+  height: 70px;
+}
+.container {
+  max-width: 856px;
+  margin: auto;
+}
+.header-content {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  column-gap: 33px;
+}
+.header-link {
+  color: black;
+  font-size: 20px;
+}
+.menu-icon {
+  display: none;
+  height: 18px;
+  width: 30px;
+}
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
+  .container {
+    padding: 0px 13px;
+  }
+  .header-nav {
+    display: none;
+  }
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 38px;
+  max-width: 500px;
+}
+h1 {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.main img {
+  max-width: 243px;
+  max-height: 243px;
+}
+.main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.main a {
+  background-color: #ff6464;
+  height: 47px;
+  width: 208px;
+  color: #fff;
+  padding: 14px 0px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    row-gap: 34px;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main p,
+  h1 {
+    text-align: center;
+  }
+  main p {
+    width: 328px;
+    height: 96px;
+  }
+}
